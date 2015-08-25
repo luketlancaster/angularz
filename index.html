@@ -1,1 +1,16 @@
-<script src="lib/bower_components/angular/angular.min.js"></script>
+<html>
+<head>
+</head>
+<body ng-app="TodoApp">
+  <section ng-controller="TodoCtrl">
+    <h1>{{ title }}</h1>
+    <div>
+      <input type="text" ng-model="macaroni" />
+      <div> {{ macaroni }} </div>
+    </div>
+  </section>
+
+  <script src="lib/bower_components/angular/angular.min.js"></script>
+  <script src="app/Todo.js"></script>
+</body>
+</html>

@@ -1,26 +1,19 @@
 {
   "name": "music-history-5",
   "version": "0.0.0",
-  "homepage": "https://github.com/Jergron/cli-quiz",
+  "homepage": "https://github.com/luketlancaster/angularz",
   "authors": [
-    "Jeremy <jeremygrondahl@gmail.com>"
+    "Luke Lancaster <lukeltancaster@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
     "angular": "~1.4.4",
-    "animate.css": "~3.3.1",
     "firebase": "~2.2.9",
-    "jquery": "~2.1.4",
-    "lodash": "~3.10.1",
-    "q": "~1.0.1",
-    "require-handlebars-plugin": "~0.11.3",
-    "requirejs": "~2.1.20"
+    "jquery": "~2.1.4"
   }
 }
